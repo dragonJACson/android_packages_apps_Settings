@@ -116,6 +116,8 @@ public class ConfigureNotificationSettings extends DashboardFragment {
 
         });
         controllers.add(new ZenModePreferenceController(context, lifecycle, KEY_ZEN_MODE));
+        controllers.add(new PeekSnoozeTimeController(context));
+        controllers.add(new PeekTimeoutController(context));
         return controllers;
     }
 

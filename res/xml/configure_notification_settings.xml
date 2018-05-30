@@ -26,6 +26,23 @@
         android:title="@string/lock_screen_notifications_title"
         android:summary="@string/summary_placeholder"/>
 
+
+    <com.android.settings.RestrictedListPreference
+        android:key="heads_up_time_out"
+        android:title="@string/heads_up_time_out_title"
+        android:entries="@array/heads_up_time_out_entries"
+        android:entryValues="@array/heads_up_time_out_values"
+        android:persistent="false"
+        android:order="18" />
+
+    <com.android.settings.RestrictedListPreference
+        android:key="heads_up_snooze_time"
+        android:title="@string/heads_up_snooze_title"
+        android:entries="@array/heads_up_snooze_entries"
+        android:entryValues="@array/heads_up_snooze_values"
+        android:persistent="false"
+        android:order="19" />
+
     <!-- Notification badging -->
     <SwitchPreference
         android:key="notification_badging"
@@ -106,6 +123,7 @@
             android:title="@string/locked_work_profile_notification_title"
             android:summary="@string/summary_placeholder"
             android:order="24"/>
+
     </PreferenceCategory>
 
 </PreferenceScreen>
