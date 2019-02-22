@@ -117,8 +117,8 @@
     <string name="github_varund7726">https://github.com/varund7726</string>
     <string name="github_akhilnarang">https://github.com/akhilnarang</string>
     <string name="github_bdogg718k">https://github.com/bdogg718k</string>
-    <string name="github_apascual89">https://github.com/apascual89</string> 
-    <string name="github_mracar">https://github.com/mracar07</string> 
+    <string name="github_apascual89">https://github.com/apascual89</string>
+    <string name="github_mracar">https://github.com/mracar07</string>
     <string name="rr">Links</string>
     <string name="rr_website_title">Website</string>
     <string name="rr_website_summary">Get more information about Resurrection Remix OS</string>
@@ -259,7 +259,7 @@
     <string name="rr_recents_title">Recents</string>
     <string name="qs_tile_layout">Tile layout</string>
     <string name="qs_columns_title">Columns</string>
-    <string name="heads_up_settings">Heads up</string>    
+    <string name="heads_up_settings">Heads up</string>
     <string name="system_animations">System animations</string>
     <string name="rr_ui_title">Interface</string>
     <string name="rr_dash_board_title">Dashboard</string>
@@ -332,7 +332,7 @@
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
     <string name="ok_string">Ok</string>
 
-    <!-- Status Bar Ticker -->  
+    <!-- Status Bar Ticker -->
     <string name="ticker_screen_title">Notification ticker</string>
     <string name="ticker_title">Status bar ticker</string>
     <string name="ticker_summary">Enable the old status bar ticker</string>
@@ -412,7 +412,7 @@
     <string name="custom_density_summary">
     <xliff:g name="count" example="520">%d</xliff:g> Density pixel</string>
     <string name="rr_custom_density_summary">Set your own LCD density value</string>
- 
+
     <!-- Status bar -->
     <string name="status_bar_title">Status bar</string>
     <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
@@ -647,20 +647,20 @@
     <string name="status_bar_weather_font_condensed">Condensed</string>
     <string name="status_bar_weather_font_condensed_italic">Condensed Italic</string>
     <string name="status_bar_weather_font_condensed_light">Condensed Light</string>
-    <string name="status_bar_weather_font_condensed_light_italic">Condensed Light Italic</string> 
+    <string name="status_bar_weather_font_condensed_light_italic">Condensed Light Italic</string>
     <string name="status_bar_weather_font_condensed_bold">Condensed Bold</string>
     <string name="status_bar_weather_font_condensed_bold_italic">Condensed Bold Italic</string>
     <string name="status_bar_weather_font_medium">Medium</string>
     <string name="status_bar_weather_font_medium_italic">Medium Italic</string>
     <string name="status_bar_weather_font_black">Black</string>
-    <string name="status_bar_weather_font_black_italic">Black Italic</string> 
+    <string name="status_bar_weather_font_black_italic">Black Italic</string>
     <string name="status_bar_weather_font_dancingscript">DancingScript</string>
     <string name="status_bar_weather_font_dancingscript_bold">DancingScript Bold</string>
     <string name="status_bar_weather_font_comingsoon">ComingSoon</string>
     <string name="status_bar_weather_font_notoserif">NotoSerif Normal</string>
     <string name="status_bar_weather_font_notoserif_italic">NotoSerif Italic</string>
     <string name="status_bar_weather_font_notoserif_bold">NotoSerif Bold</string>
-    <string name="status_bar_weather_font_notoserif_bold_italic">NotoSerif Bold Italic</string> 
+    <string name="status_bar_weather_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
 
     <!-- Lockscreen Weather -->
     <string name="lock_screen_weather_category_title">Lockscreen</string>
@@ -1070,7 +1070,7 @@
     <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
     <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
 
-    <!-- Ability to disable hardware keys via nav bar settings -->    
+    <!-- Ability to disable hardware keys via nav bar settings -->
     <string name="hw_keys_title">Hardware keys</string>
     <string name="hw_keys_summary">Enable hardware keys</string>
     <string name="rr_hw_keys_summary">Customize various hardware buttons on your device like home, back, and menu</string>
@@ -1406,7 +1406,7 @@
     <string name="blur_expstatus_cat">Expanded status bar </string>
     <string name="blur_notifications_cat">Notifications</string>
     <string name="blur_qs_cat">Quick settings</string>
-    <string name="blur_recents_cat">Recent apps</string> 
+    <string name="blur_recents_cat">Recent apps</string>
     <string name="blur_colors_cat">Blur color filters</string>
     <string name="blur_notices_cat">Notices</string>
     <string name="blurred_scale">Blur scale</string>
@@ -1577,7 +1577,7 @@
     <string name="teamviewer">Teamviewer</string>
     <string name="totalcommander">Total commander</string>
     <string name="weather">Weather</string>
-    <string name="golocker">Go locker</string>   
+    <string name="golocker">Go locker</string>
     <string name="googlecurrents">Google currents</string>
     <string name="googletalk">Google talk</string>
     <string name="gosms">Go sms</string>
@@ -1603,7 +1603,7 @@
     <string name="googleplus">Google plus</string>
     <string name="imdb">imdb</string>
     <string name="instagram">instagram</string>
-    <string name="lastfm">Lastfm</string>   
+    <string name="lastfm">Lastfm</string>
     <string name="maps">Maps</string>
     <string name="messages">Messages</string>
     <string name="music">Music</string>
@@ -1768,8 +1768,8 @@
     <string name="mem_text_color">Membar text</string>
     <string name="clear_button_color">Clear all</string>
     <string name="clear_recents_style_enable">Custom recents style</string>
-    <string name="clear_recents_style_enable_summary">Enable / disable custom styling of recent apps view</string> 
-    <string name="recents_rotate_fab">Animate FAB</string> 
+    <string name="clear_recents_style_enable_summary">Enable / disable custom styling of recent apps view</string>
+    <string name="recents_rotate_fab">Animate FAB</string>
     <string name="recents_rotate_fab_summary">Enable / disable rotation of clear all button</string>
     <string name="recents_fab_vibrate">Vibrate clear all button on press</string>
     <string name="recents_fab_vibrate_summary">Enable / disable haptic feedback of dismiss all button</string>
@@ -1958,7 +1958,7 @@
     <string name="sum7">I am not your F1 button</string>
     <string name="sum8">You don\'t wanna miss this s***!</string>
     <string name="sum9">Welcome to RR</string>
-    <string name="sum10">Don\'t pass me!</string> 
+    <string name="sum10">Don\'t pass me!</string>
     <string name="sum11">Did you finish your homework? ツ</string>
     <string name="sum12">Hello, i\'m your new assistant</string>
     <string name="sum13">Don\'t mess with the interface!</string>
@@ -2044,12 +2044,12 @@
     <string name="interval_entry_12h">Every 12 hours</string>
     <string name="interval_entry_24h">Every 24 hours</string>
 
-  
+
     <!-- QS footer icons -->
     <string name="qs_footer_services_title">Show Running Services icon</string>
     <string name="qs_footer_services_summary">Display Running Services icon in quick settings footer</string>
     <string name="qs_footer_settings_title">Show Settings icon</string>
-    <string name="qs_footer_settings_summary">Display Settings icon in quick settings footer</string>   
+    <string name="qs_footer_settings_summary">Display Settings icon in quick settings footer</string>
 
     <!-- Recents Grid -->
     <string name="recents_grid_title">Recents grid</string>
@@ -2107,7 +2107,7 @@
     <string name="edge_gestures_landscape_back_edges_title">Trigger back gesture on landscape from</string>
     <string name="edge_gestures_back_screen_percent_title">Back gesture must start below this percentage of the screen</string>
     <string name="edge_gestures_back_screen_percent_summary">Trigger below % of screen</string>
-    <string name="edge_gestures_back_show_ui_feedback_title">Back gesture animation</string> 
+    <string name="edge_gestures_back_show_ui_feedback_title">Back gesture animation</string>
     <string name="edge_gestures_back_show_ui_feedback_summary">Show animated feedback on edges when back gesture is used</string>
 
     <!-- Key backlight -->
@@ -2145,11 +2145,6 @@
     <string name="use_bottom_gesture_summary">Use bottom swipe up gestures for navigation</string>
     <string name="gesture_settings_info">Navigation bar must be disabled!\n\nAvailable gestures:\n\nBack\n- Swipe up on left or right side\n\nHome\n- Swipe up center\n\nRecent apps\n- Swipe up center and hold\n\nLong press home\n- Short swipe up and hold in the center</string>
 
-    <!-- Font picker -->
-    <string name="font_picker_title">Font</string>
-    <string name="font_picker_title_summary">Select custom system font</string>
-    <string name="font_picker_progress">Applying new font\u2026</string>
-
     <!-- Audio Panel view  -->
     <string name="audio_panel_view">Audio panel</string>
     <string name="audio_panel_view_media_title">Media</string>
@@ -2176,14 +2171,14 @@
     <string name="lock_widget_font_condensed_bold">Condensed Bold</string>
     <string name="lock_widget_font_condensed_bold_italic">Condensed Bold Italic</string>
     <string name="lock_widget_font_condensed_light">Condensed Light</string>
-    <string name="lock_widget_font_condensed_light_italic">Condensed Light Italic</string> 
+    <string name="lock_widget_font_condensed_light_italic">Condensed Light Italic</string>
     <string name="lock_widget_font_medium_normal">Medium</string>
     <string name="lock_widget_font_medium_italic">Medium Italic</string>
     <string name="lock_widget_font_black">Black</string>
     <string name="lock_widget_font_black_italic">Black Italic</string>
 
     <!-- Lock Clock Fonts -->
-    <string name="lock_clock_font_title">Clock font style</string> 
+    <string name="lock_clock_font_title">Clock font style</string>
 
     <!-- Lock Date Fonts -->
     <string name="lock_date_font_title">Date font style</string>
@@ -2215,24 +2210,24 @@
 
     <string name="lock_weather_title">Lock Screen Weather</string>
 
-    <!-- Wakelock blocker --> 
-    <string name="wakelock_blocker_title">Wakelock Blocker</string> 
-    <string name="wakelock_blocker_summary">Block system wakelocks</string> 
-    <string name="wakelock_blocker_save">Save</string> 
-    <string name="wakelock_list_header">Available wakelocks</string> 
-    <string name="wakelock_blocker_reload">Reload</string> 
-    <string name="wakelock_blocker_warning_title">Proceed with caution</string> 
-    <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string> 
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Wakelock Blocker</string>
+    <string name="wakelock_blocker_summary">Block system wakelocks</string>
+    <string name="wakelock_blocker_save">Save</string>
+    <string name="wakelock_list_header">Available wakelocks</string>
+    <string name="wakelock_blocker_reload">Reload</string>
+    <string name="wakelock_blocker_warning_title">Proceed with caution</string>
+    <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string>
 
-    <!-- Alarm blocker --> 
-    <string name="alarm_blocker">Alarm blocker</string> 
-    <string name="alarm_blocker_title">Enable</string> 
-    <string name="alarm_blocker_summary">Block alarms while screen off</string> 
-    <string name="alarm_blocker_save">Save</string> 
-    <string name="alarm_list_header">Available alarms</string> 
-    <string name="alarm_blocker_reload">Reload</string> 
-    <string name="alarm_blocker_warning_title">Proceed with caution</string> 
-    <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string> 
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Alarm blocker</string>
+    <string name="alarm_blocker_title">Enable</string>
+    <string name="alarm_blocker_summary">Block alarms while screen off</string>
+    <string name="alarm_blocker_save">Save</string>
+    <string name="alarm_list_header">Available alarms</string>
+    <string name="alarm_blocker_reload">Reload</string>
+    <string name="alarm_blocker_warning_title">Proceed with caution</string>
+    <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
 
     <!-- Power menu and global actions -->
     <string name="global_actions_title">Power menu</string>
@@ -2251,18 +2246,18 @@
     <string name="global_actions_flashlight">Flashlight</string>
     <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
     <string name="global_actions_advanced_reboot_summary">When restarting also show options for recovery and bootloader</string>
-    
+
     <!-- Power menu and dialogs opacity -->
     <string name="power_menu_category">Power/reboot dialogs</string>
     <string name="power_menu_transparency">Opacity</string>
     <string name="power_menu_dialog_dim">Background dim</string>
-    
+
     <!-- QS Settings background panel -->
     <string name="qs_panel_translucency_category_title">Panel transparency</string>
     <string name="translucent_quick_settings">Enable transparency</string>
     <string name="translucent_quick_settings_summary">Background panel</string>
     <string name="translucent_quick_settings_percentage">Background transparency percentage</string>
-    
+
     <!-- AOKP custom system animations -->
     <string name="task_open_behind_title">Task open behind animation</string>
     <string name="anim_general_category">Overall Animations</string>
