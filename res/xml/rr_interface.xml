@@ -20,7 +20,7 @@
             android:key="rr_headsup"
             android:title="@string/rr_headsup_cat"
             android:summary="@string/rr_headsup_summary"
-            android:fragment="com.android.settings.rr.HeadsUp" 
+            android:fragment="com.android.settings.rr.HeadsUp"
             android:icon="@drawable/rr_heads_up_icon"/>
 
         <PreferenceScreen
@@ -46,7 +46,7 @@
             android:icon="@drawable/rr_display_icon"
             android:fragment="com.android.settings.display.ScreenZoomSettings"
             settings:keywords="@string/screen_zoom_keywords" />
-                        
+
         <com.android.settings.rr.LCDDensityPreference
             android:key="custom_density"
             android:icon="@drawable/rr_density_icon"
@@ -64,34 +64,27 @@
             android:key="smart_pixels"
             android:title="@string/smart_pixels_title"
             android:summary="@string/smart_pixels_summary"
-            android:fragment="com.android.settings.rr.fragments.SmartPixels" 
+            android:fragment="com.android.settings.rr.fragments.SmartPixels"
             android:icon="@drawable/rr_pixel_navbar_icon"/>
-
-    <com.android.settings.display.FontDialogPreference
-        android:key="custom_font"
-        android:icon="@drawable/rr_ic_font_picker"
-        android:summary="@string/font_picker_title_summary"
-        android:title="@string/font_picker_title"
-        android:persistent="false" />
 
     <!-- PA Pie -->
     <Preference
-        android:key="pa_pie_control" 
-        android:title="@string/pa_pie_control_title" 
+        android:key="pa_pie_control"
+        android:title="@string/pa_pie_control_title"
         android:summary="@string/pa_pie_control_summary"
         android:icon="@drawable/rr_pie_icon"
         android:fragment="com.android.settings.rr.fragments.PieSettings" />
 
-    <!--Preference 
-        android:key="edge_gestures" 
-        android:title="@string/edge_gestures_title" 
+    <!--Preference
+        android:key="edge_gestures"
+        android:title="@string/edge_gestures_title"
         android:summary="@string/edge_gestures_summary"
         android:icon="@drawable/rr_gestures_icon"
         android:fragment="com.android.settings.rr.fragments.EdgeGesturesSettings"/-->
 
         <!-- Gesture anywhere -->
         <PreferenceScreen
-	    	android:id="@+id/gesture_anywhere"	
+	    	android:id="@+id/gesture_anywhere"
             android:key="gesture_anywhere"
             android:fragment="com.android.settings.rr.gesture.GestureAnywhereSettings"
             android:title="@string/gesture_anywhere_title"
