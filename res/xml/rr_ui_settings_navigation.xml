@@ -23,13 +23,13 @@
 
        <com.android.settings.applications.LayoutPreference
             android:key="rr_fp"
-            android:layout="@layout/rr_fingerprint_layout" 
+            android:layout="@layout/rr_fingerprint_layout"
             android:fragment="com.android.settings.rr.FingerPrintSettings" />
 
        <com.android.settings.applications.LayoutPreference
             android:key="rr_lockscreen"
             android:title="@string/rr_lockscreen_title"
-	   	    android:fragment="com.android.settings.rr.LockSettings" 
+	   	    android:fragment="com.android.settings.rr.LockSettings"
 	   		android:layout="@layout/rr_lockscreen_layout" />
 
        <com.android.settings.applications.LayoutPreference
@@ -97,12 +97,6 @@
         <com.android.settings.rr.LCDDensityPreference
             android:key="custom_density"
             android:layout="@layout/rr_custom_density_layout" />
-
-    <com.android.settings.display.FontDialogPreference
-        android:key="custom_font"
-        android:layout="@layout/rr_font_dg_layout" 
-        android:icon="@drawable/ic_font_picker"
-        android:persistent="false" />
 
        <com.android.settings.applications.LayoutPreference
             android:key="font_size"
