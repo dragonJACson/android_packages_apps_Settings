@@ -47,4 +47,16 @@
         android:title="@string/alarm_blocker" 
         android:summary="@string/alarm_blocker_summary" />
 
+     <Preference
+        android:key="vol_steps"
+        android:fragment="com.android.settings.rr.VolumeStepsFragment"
+        android:title="@string/volume_steps_fragment_title"
+        android:summary="@string/volume_steps_summary" />
+
+     <com.rr.settings.preferences.SystemSettingSwitchPreference
+        android:key="notification_guts_kill_app_button"
+        android:title="@string/notification_guts_kill_app_button_title"
+        android:summary="@string/notification_guts_kill_app_button_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>

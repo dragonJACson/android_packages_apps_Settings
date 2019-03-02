@@ -107,9 +107,9 @@
   <string name="device_a6000_codename" translatable="false">a6000</string>
   <string name="device_a6000_maintainer" translatable="false">Hassan Sardar (Has.007)</string>
 
-  <string name="device_p2a42" translatable="false">Lenovo P2</string>
-  <string name="device_p2a42_codename" translatable="false">p2a42</string>
-  <string name="device_p2a42_maintainer" translatable="false">Fullbustah</string>
+  <string name="device_kuntao" translatable="false">Lenovo P2</string>
+  <string name="device_kuntao_codename" translatable="false">kuntao</string>
+  <string name="device_kuntao_maintainer" translatable="false">davidviba</string>
 
   <string name="device_ms013g" translatable="false">Grand 2 SM-G7102</string>
   <string name="device_ms013g_codename" translatable="false">ms013g</string>
@@ -126,10 +126,6 @@
   <string name="device_moto_x_clark" translatable="false">Moto X Pure/Style 2015</string>
   <string name="device_moto_x_clark_codename" translatable="false">Clark</string>
   <string name="device_moto_x_clark_maintainer" translatable="false">sixohtew</string>
-
-  <string name="device_lux_x" translatable="false">Moto X Play</string>
-  <string name="device_lux_x_codename" translatable="false">Lux</string>
-  <string name="device_lux_x_maintainer" translatable="false">GtrCraft</string>
 
   <string name="device_peregrine" translatable="false">Moto G LTE</string>
   <string name="device_peregrine_codename" translatable="false">Peregrine</string>
@@ -149,7 +145,7 @@
 
   <string name="device_potter" translatable="false">Moto G5 Plus</string>
   <string name="device_potter_codename" translatable="false">Potter</string>
-  <string name="device_potter_maintainer" translatable="false">Akhil Menon (Akhmen18)</string>
+  <string name="device_potter_maintainer" translatable="false">Nick van Bokhorst (GtrCraft)</string>
 
   <string name="device_sanders" translatable="false">Moto G5S Plus</string>
   <string name="device_sanders_codename" translatable="false">sanders</string>
@@ -774,11 +770,15 @@
     
   <string name="device_whyred" translatable="false">Xiaomi Redmi Note 5 Pro</string>
   <string name="device_whyred_codename" translatable="false">whyred</string>
-  <string name="device_whyred_maintainer" translatable="false">Henrique Silva (jhenrique09)</string>
+  <string name="device_whyred_maintainer" translatable="false">Baalaji (baalajimaestro)</string>
 
   <string name="device_tissot" translatable="false">Xiaomi Mi A1</string>
   <string name="device_tissot_codename" translatable="false">Tissot</string>
   <string name="device_tissot_maintainer" translatable="false">Mountaser Halak</string>
+
+  <string name="device_jasmine_sprout" translatable="false">Xiaomi Mi A2</string>
+  <string name="device_jasmine_sprout_codename" translatable="false">Jasmine_sprout</string>
+  <string name="device_jasmine_sprout_maintainer" translatable="false">Akshay Kakatkar</string>
 
   <string name="device_hydrogen" translatable="false">Xiaomi Mi Max</string>
   <string name="device_hydrogen_codename" translatable="false">Hydrogen</string>
@@ -918,7 +918,7 @@
 
   <string name="device_nexus7" translatable="false">Asus Nexus 7 2013</string>
   <string name="device_nexus7_codename" translatable="false">flo/deb</string>
-  <string name="device_nexus7_maintainer" translatable="false">apascual89</string>
+  <string name="device_nexus7_maintainer" translatable="false">Luke Williams</string>
 
   <string name="device_google_dragon" translatable="false">Pixel C</string>
   <string name="device_google_dragon_codename" translatable="false">dragon</string>

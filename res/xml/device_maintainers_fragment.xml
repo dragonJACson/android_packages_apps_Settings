@@ -301,12 +301,6 @@
             app:maintainer="@string/device_evert_maintainer"
             app:type="phone" />
         <com.android.settings.rr.Preferences.DevicePreference
-            android:id="@+id/device_lux_x"
-            android:title="@string/device_lux_x"
-            app:codename="@string/device_lux_x_codename"
-            app:maintainer="@string/device_lux_x_maintainer"
-            app:type="phone" />
-        <com.android.settings.rr.Preferences.DevicePreference
             android:id="@+id/device_quark"
             android:title="@string/device_quark"
             app:codename="@string/device_quark_codename"
@@ -423,10 +417,10 @@
 
 
         <com.android.settings.rr.Preferences.DevicePreference
-            android:id="@+id/device_p2a42"
-            android:title="@string/device_p2a42"
-            app:codename="@string/device_p2a42_codename"
-            app:maintainer="@string/device_p2a42_maintainer"
+            android:id="@+id/device_kuntao"
+            android:title="@string/device_kuntao"
+            app:codename="@string/device_kuntao_codename"
+            app:maintainer="@string/device_kuntao_maintainer"
             app:type="phone" />
 
         <com.android.settings.rr.Preferences.DevicePreference
@@ -1251,6 +1245,12 @@
             android:title="@string/device_tissot"
             app:codename="@string/device_tissot_codename"
             app:maintainer="@string/device_tissot_maintainer"
+            app:type="phone" />
+        <com.android.settings.rr.Preferences.DevicePreference
+            android:id="@+id/device_jasmine_sprout"
+            android:title="@string/device_jasmine_sprout"
+            app:codename="@string/device_jasmine_sprout_codename"
+            app:maintainer="@string/device_jasmine_sprout_maintainer"
             app:type="phone" />
 	<com.android.settings.rr.Preferences.DevicePreference
             android:id="@+id/device_rosy"
