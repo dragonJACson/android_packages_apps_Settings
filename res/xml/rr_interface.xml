@@ -16,58 +16,79 @@
     xmlns:rrsettings="http://schemas.android.com/apk/res-auto"
     android:title="@string/rr_ui_title">
 
+    <com.android.settings.rr.LCDDensityPreference
+        android:key="custom_density"
+        android:icon="@drawable/rr_density_icon"
+        android:title="@string/custom_density_settings" />
+
     <PreferenceScreen
-            android:key="rr_headsup"
-            android:title="@string/rr_headsup_cat"
-            android:summary="@string/rr_headsup_summary"
-            android:fragment="com.android.settings.rr.HeadsUp"
-            android:icon="@drawable/rr_heads_up_icon"/>
+        android:key="dashboard"
+        android:title="@string/rr_dash_board_title"
+        android:icon="@drawable/rr_dashboard_icon"
+        android:summary="@string/rr_dash_board_summary"
+        android:fragment="com.android.settings.rr.DashBoardSettings" />
 
-        <PreferenceScreen
-            android:key="dashboard"
-            android:title="@string/rr_dash_board_title"
-            android:icon="@drawable/rr_dashboard_icon"
-            android:summary="@string/rr_dash_board_summary"
-            android:fragment="com.android.settings.rr.DashBoardSettings"/>
+    <com.android.settings.display.ScreenZoomPreference
+        android:key="screen_zoom"
+        android:title="@string/screen_zoom_title"
+        android:icon="@drawable/rr_display_icon"
+        android:fragment="com.android.settings.display.ScreenZoomSettings"
+        settings:keywords="@string/screen_zoom_keywords" />
 
-        <PreferenceScreen
-            android:key="rr_tuner"
-            android:title="@string/rr_tuner"
-            android:icon="@drawable/rr_tuner_icon"
-            android:summary="@string/rr_tuner_summary">
-            <intent android:action="com.android.settings.action.TUNER"
-                    android:targetPackage="com.android.systemui"
-                    android:targetClass="com.android.systemui.tuner.TunerActivity"/>
-        </PreferenceScreen>
+    <!--Preference
+            android:key="edge_gestures"
+            android:title="@string/edge_gestures_title"
+            android:summary="@string/edge_gestures_summary"
+            android:icon="@drawable/rr_gestures_icon"
+            android:fragment="com.android.settings.rr.fragments.EdgeGesturesSettings"/-->
 
-        <com.android.settings.display.ScreenZoomPreference
-            android:key="screen_zoom"
-            android:title="@string/screen_zoom_title"
-            android:icon="@drawable/rr_display_icon"
-            android:fragment="com.android.settings.display.ScreenZoomSettings"
-            settings:keywords="@string/screen_zoom_keywords" />
+    <PreferenceScreen
+        android:id="@+id/gesture_anywhere"
+        android:key="gesture_anywhere"
+        android:fragment="com.android.settings.rr.gesture.GestureAnywhereSettings"
+        android:title="@string/gesture_anywhere_title"
+        android:summary="@string/gesture_anywhere_summary"
+        android:icon="@drawable/rr_gesture_anywhere_icon" />
 
-        <com.android.settings.rr.LCDDensityPreference
-            android:key="custom_density"
-            android:icon="@drawable/rr_density_icon"
-            android:title="@string/custom_density_settings" />
+    <PreferenceScreen
+        android:key="rr_headsup"
+        android:title="@string/rr_headsup_cat"
+        android:summary="@string/rr_headsup_summary"
+        android:fragment="com.android.settings.rr.HeadsUp"
+        android:icon="@drawable/rr_heads_up_icon" />
 
-        <PreferenceScreen
-            android:key="rr_volume"
-            android:fragment="com.android.settings.rr.VolumePanelSettings"
-            android:title="@string/rr_volume_title"
-            android:summary="@string/rr_volume_summary"
-            android:icon="@drawable/rr_volume_icon"
-          />
+    <PreferenceScreen
+        android:key="rr_ui_other"
+        android:title="@string/interface_other_title"
+        android:icon="@drawable/rr_misc_interface_icon"
+        android:summary="@string/interface_other_summary"
+        android:fragment="com.android.settings.rr.MiscInterfaceSettings" />
 
-        <Preference
-            android:key="smart_pixels"
-            android:title="@string/smart_pixels_title"
-            android:summary="@string/smart_pixels_summary"
-            android:fragment="com.android.settings.rr.fragments.SmartPixels"
-            android:icon="@drawable/rr_pixel_navbar_icon"/>
+    <PreferenceScreen
+        android:key="rr_screenshot"
+        android:title="@string/screenshot_options_category"
+        android:icon="@drawable/rr_screenshot_icon"
+        android:summary="@string/screenshot_options_summary"
+        android:fragment="com.android.settings.rr.ScreenShotSettings" />
 
-    <!-- PA Pie -->
+    <Preference
+        android:key="smart_pixels"
+        android:title="@string/smart_pixels_title"
+        android:summary="@string/smart_pixels_summary"
+        android:fragment="com.android.settings.rr.fragments.SmartPixels"
+        android:icon="@drawable/rr_pixel_navbar_icon" />
+
+    <PreferenceScreen
+        android:key="rr_tuner"
+        android:title="@string/rr_tuner"
+        android:icon="@drawable/rr_tuner_icon"
+        android:summary="@string/rr_tuner_summary">
+        <intent
+            android:action="com.android.settings.action.TUNER"
+            android:targetPackage="com.android.systemui"
+            android:targetClass="com.android.systemui.tuner.TunerActivity" />
+    </PreferenceScreen>
+
     <Preference
         android:key="pa_pie_control"
         android:title="@string/pa_pie_control_title"
@@ -75,50 +96,10 @@
         android:icon="@drawable/rr_pie_icon"
         android:fragment="com.android.settings.rr.fragments.PieSettings" />
 
-    <!--Preference
-        android:key="edge_gestures"
-        android:title="@string/edge_gestures_title"
-        android:summary="@string/edge_gestures_summary"
-        android:icon="@drawable/rr_gestures_icon"
-        android:fragment="com.android.settings.rr.fragments.EdgeGesturesSettings"/-->
-
-        <!-- Gesture anywhere -->
-        <PreferenceScreen
-	    	android:id="@+id/gesture_anywhere"
-            android:key="gesture_anywhere"
-            android:fragment="com.android.settings.rr.gesture.GestureAnywhereSettings"
-            android:title="@string/gesture_anywhere_title"
-            android:summary="@string/gesture_anywhere_summary"
-			android:icon="@drawable/rr_gesture_anywhere_icon" />
-
-
-        <PreferenceScreen
-            android:key="rr_screenshot"
-            android:title="@string/screenshot_options_category"
-            android:icon="@drawable/rr_screenshot_icon"
-            android:summary="@string/screenshot_options_summary"
-            android:fragment="com.android.settings.rr.ScreenShotSettings" />
-
-       <PreferenceScreen
-            android:key="rr_ui_other"
-            android:title="@string/interface_other_title"
-            android:icon="@drawable/rr_misc_interface_icon"
-            android:summary="@string/interface_other_summary"
-            android:fragment="com.android.settings.rr.MiscInterfaceSettings" />
-
-       <PreferenceScreen
-            android:key="rr_audio_panel"
-            android:title="@string/audio_panel_view"
-            android:fragment="com.android.settings.rr.AudioPanel" />
-
-    <com.android.settings.rr.Preferences.SystemSettingSeekBarPreference
-        android:key="volume_dialog_timeout"
-        android:title="@string/volume_dialog_timeout_title"
-        android:min="500"
-        android:max="10000"
-        android:defaultValue="3000"
-        rrsettings:interval="100"
-        settings:unitsLeft=""
-        settings:unitsRight="ms" />
-
+    <PreferenceScreen
+        android:key="rr_volume"
+        android:fragment="com.android.settings.rr.VolumePanelSettings"
+        android:title="@string/rr_volume_title"
+        android:summary="@string/rr_volume_summary"
+        android:icon="@drawable/rr_volume_icon" />
 </PreferenceScreen>
