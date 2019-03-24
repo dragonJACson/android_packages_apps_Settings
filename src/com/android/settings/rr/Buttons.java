@@ -65,6 +65,7 @@ public class Buttons extends SettingsPreferenceFragment implements
     private static final String CATEGORY_HWKEY = "hwkey_settings";
     private static final String CATEGORY_POWER = "power_key";
     private static final String CATEGORY_VOLUME = "volume_keys";
+    private static final String CATEGORY_CAMERA = "camera_key";
     private static final String KEY_POWER_END_CALL = "power_end_call";
     private static final String KEY_HOME_ANSWER_CALL = "home_answer_call";
     private static final String KEY_VOLUME_ANSWER_CALL = "volume_answer_call";
@@ -85,6 +86,9 @@ public class Buttons extends SettingsPreferenceFragment implements
     private SwitchPreference mVolumeWakeScreen;
     private SwitchPreference mVolumeMusicControls;
     private SwitchPreference mSwapVolumeButtons;
+    private SwitchPreference mCameraWakeScreen;
+    private SwitchPreference mCameraSleepOnRelease;
+    private SwitchPreference mCameraLaunch;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -94,13 +98,23 @@ public class Buttons extends SettingsPreferenceFragment implements
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
-       final boolean needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
-       final PreferenceScreen hwkeyCat = (PreferenceScreen) prefScreen
+        final int deviceKeys = res.getInteger(
+                org.lineageos.platform.internal.R.integer.config_deviceHardwareKeys);
+        final int deviceWakeKeys = res.getInteger(
+                org.lineageos.platform.internal.R.integer.config_deviceHardwareWakeKeys);
+
+        final boolean showCameraWake = (deviceWakeKeys & KEY_MASK_CAMERA) != 0;
+        final boolean hasCameraKey = (deviceKeys & KEY_MASK_CAMERA) != 0;
+
+        final boolean needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
+        final PreferenceScreen hwkeyCat = (PreferenceScreen) prefScreen
                 .findPreference(CATEGORY_HWKEY);
         final PreferenceCategory powerCategory =
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_POWER);
         final PreferenceCategory volumeCategory =
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_VOLUME);
+        final PreferenceCategory cameraCategory =
+                (PreferenceCategory) prefScreen.findPreference(CATEGORY_CAMERA);
 
         if (needsNavbar) {
             prefScreen.removePreference(hwkeyCat);
@@ -153,6 +167,29 @@ public class Buttons extends SettingsPreferenceFragment implements
             }
         }
 
+        if (hasCameraKey) {
+            mCameraWakeScreen = (SwitchPreference) findPreference(LineageSettings.System.CAMERA_WAKE_SCREEN);
+            mCameraSleepOnRelease =
+                    (SwitchPreference) findPreference(LineageSettings.System.CAMERA_SLEEP_ON_RELEASE);
+            mCameraLaunch = (SwitchPreference) findPreference(LineageSettings.System.CAMERA_LAUNCH);
+
+            if (!showCameraWake) {
+                prefScreen.removePreference(mCameraWakeScreen);
+            }
+            // Only show 'Camera sleep on release' if the device has a focus key
+            if (res.getBoolean(org.lineageos.platform.internal.R.bool.config_singleStageCameraKey)) {
+                prefScreen.removePreference(mCameraSleepOnRelease);
+            }
+        } else {
+            prefScreen.removePreference(cameraCategory);
+        }
+
+        if (mCameraWakeScreen != null) {
+            if (mCameraSleepOnRelease != null && !res.getBoolean(
+                    org.lineageos.platform.internal.R.bool.config_singleStageCameraKey)) {
+                mCameraSleepOnRelease.setDependency(LineageSettings.System.CAMERA_WAKE_SCREEN);
+            }
+        }
     }
 
     @Override
