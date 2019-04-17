@@ -546,7 +546,7 @@
 
   <string name="device_osprey" translatable="false">Moto G 2015 </string>
   <string name="device_osprey_codename" translatable="false">Osprey</string>
-  <string name="device_osprey_maintainer" translatable="false"></string>
+  <string name="device_osprey_maintainer" translatable="false">Heitezy</string>
 
   <string name="device_athene" translatable="false">Moto G4 Plus</string>
   <string name="device_athene_codename" translatable="false">athene</string>
@@ -1023,5 +1023,9 @@
   <string name="device_on7xelte" translatable="false">Galaxy J7 Prime</string>
   <string name="device_on7xelte_codename" translatable="false">on7xelte</string>
   <string name="device_on7xelte_maintainer" translatable="false">Douglas Gomes</string>
+   
+  <string name="device_dipper" translatable="false">Xiaomi Mi 8</string>
+  <string name="device_dipper_codename" translatable="false">dipper</string>
+  <string name="device_dipper_maintainer" translatable="false">engr.chachi</string>
    
 </resources>
