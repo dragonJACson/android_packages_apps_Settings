@@ -74,4 +74,10 @@
 
     </PreferenceCategory>
 
+    <com.rr.settings.preferences.SystemSettingSwitchPreference
+        android:key="smart_clock_enable"
+        android:title="@string/use_smart_clock"
+        android:summary="@string/use_smart_clock_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>

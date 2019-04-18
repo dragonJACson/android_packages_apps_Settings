@@ -1828,7 +1828,7 @@
     <!-- Seekbar default text -->
     <string name="custom_seekbar_default_text">Sıfırla</string>
     <!-- Notification guts kill app button -->
-    <string name="notification_guts_kill_app_button_title">Uygulama sonlandrıma tuşu</string>
+    <string name="notification_guts_kill_app_button_title">Uygulama sonlandırma tuşu</string>
     <string name="notification_guts_kill_app_button_summary">Bildirime uzun basma menüsünde uygulamayı sonlandırma tuşunu göster</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_warning_text">Akıllı pikseller bir güç tasarrufu özelliğidir. Kaç piksele karar verdiğinize bağlı olarak pil ömründe iyileşme görebilirsiniz.</string>
@@ -1953,34 +1953,6 @@
     <string name="audio_panel_view_alarm_title">Alarm</string>
     <string name="audio_panel_view_voice_title">Sesli mesaj</string>
     <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
-    <!-- Lock Widget -->
-    <string name="ls_widget">Widget stilleri</string>
-    <!-- Lock Widget Fonts -->
-    <string name="lock_widget_font_stock">Normal (varsayılan)</string>
-    <string name="lock_widget_font_bold">Kalın</string>
-    <string name="lock_widget_font_italic">İtalik</string>
-    <string name="lock_widget_font_bold_italic">Kalın İtalik</string>
-    <string name="lock_widget_font_light_italic">Hafif İtalik</string>
-    <string name="lock_widget_font_thin_italic">İnce İtalik</string>
-    <string name="lock_widget_font_light">Hafif</string>
-    <string name="lock_widget_font_thin">İnce</string>
-    <string name="lock_widget_font_condensed_normal">Yoğun</string>
-    <string name="lock_widget_font_condensed_italic">Yoğun İtalik</string>
-    <string name="lock_widget_font_condensed_bold">Yoğun Kalın</string>
-    <string name="lock_widget_font_condensed_bold_italic">Yoğun Kalın İtalik</string>
-    <string name="lock_widget_font_condensed_light">Yoğun Hafif</string>
-    <string name="lock_widget_font_condensed_light_italic">Yoğun Hafif Italik</string>
-    <string name="lock_widget_font_medium_normal">Orta</string>
-    <string name="lock_widget_font_medium_italic">Orta İtalik</string>
-    <string name="lock_widget_font_black">Siyah</string>
-    <string name="lock_widget_font_black_italic">Siyah İtalik</string>
-    <!-- Lock Clock Fonts -->
-    <string name="lock_clock_font_title">Saat yazı tipi stili</string>
-    <!-- Lock Date Fonts -->
-    <string name="lock_date_font_title">Tarih yazı tipi stili</string>
-    <!-- Lock Clock & Date Size -->
-    <string name="lockdate_font_size_title">Tarih yazı tipi boyutu</string>
-    <string name="lockclock_font_size_title">Saat yazı tipi boyutu</string>
     <!-- ScreenRecord Shortcut -->
     <string name="screen_record_shortcut">Ekran kaydı kısayolu</string>
     <string name="screen_record_shortcut_summary">Güç + ses açma tuşu ekran kaydı almayı etkinleştirir</string>
@@ -2114,4 +2086,32 @@
     <string name="hide_lockscreen_status_bar_summary">Görünür yapmak için durum çubuğuna dokunun</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Zil sesi ve bildirim sesini bağla</string>
+    <!-- Selinux -->
+    <string name="selinux_status">SELinux durumu</string>
+    <string name="selinux_status_disabled">Devre dışı</string>
+    <string name="selinux_status_permissive">Permissive (Serbest)</string>
+    <string name="selinux_status_enforcing">Enforcing (Zorunlu)</string>
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Derin uyku: %1$d%2$s)</string>
+    <!-- Smart Clock -->
+    <string name="use_smart_clock">Akıllı Saat</string>
+    <string name="use_smart_clock_summary">Durum çubuğu saatini düzenli aralıklarla göster</string>
+    <!-- Lockscreen items -->
+    <string name="lockscreen_clock_title">Saat widget\'ı</string>
+    <string name="lockscreen_clock_summary">Kilit ekranında saat widget\'ını göster</string>
+    <string name="lockscreen_info_title">Saatin altındaki öğeler</string>
+    <string name="lockscreen_info_summary">Kilit ekranında tarih, hava durumu ve alarmı göster</string>
+    <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">Saat stili</string>
+    <string name="lockscreen_clock_selection_digital">Varsayılan</string>
+    <string name="lockscreen_clock_selection_digital_bold">Dijital (kalın)</string>
+    <string name="lockscreen_clock_selection_analog">Analog</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (kalın)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy ile vurgu rengi</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy ile vurgu rengi (alt)</string>
+    <string name="lockscreen_clock_selection_gradient_full">Tam gradyan saat</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">Tek renkli gradyan saat</string>
+    <string name="lockscreen_clock_selection_text">Android Q Metin Saati</string>
+    <string name="default_text">Varsayılan</string>
 </resources>

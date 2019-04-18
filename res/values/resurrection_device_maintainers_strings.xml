@@ -784,6 +784,10 @@
   <string name="device_jasmine_sprout_codename" translatable="false">Jasmine_sprout</string>
   <string name="device_jasmine_sprout_maintainer" translatable="false">Akshay Kakatkar</string>
 
+  <string name="device_daisy" translatable="false">Xiaomi Mi A2 Lite</string>
+  <string name="device_daisy_codename" translatable="false">daisy</string>
+  <string name="device_daisy_maintainer" translatable="false">Akshay Kakatkar</string>
+
   <string name="device_hydrogen" translatable="false">Xiaomi Mi Max</string>
   <string name="device_hydrogen_codename" translatable="false">Hydrogen</string>
   <string name="device_hydrogen_maintainer" translatable="false">ROMFACTORY(SARTHAKMALLA)</string>
@@ -993,8 +997,8 @@
   <string name="device_lenovo_P1a42_maintainer" translatable="false">Subham (DerkLord)</string>
 
   <string name="device_z2_plus" translatable="false">Zuk Z2 PLUS</string>
-  <string name="device_z2_plus_codename" translatable="false"> z2_plus</string>
-  <string name="device_z2_plus_maintainer" translatable="false">Mr.ACAR </string>
+  <string name="device_z2_plus_codename" translatable="false">z2_plus</string>
+  <string name="device_z2_plus_maintainer" translatable="false">Agustin Lorenzo (AgustinLorenzo)</string>
 
   <string name="device_ville" translatable="false">HTC One S</string>
   <string name="device_ville_codename" translatable="false">Ville</string>
@@ -1013,8 +1017,8 @@
   <string name="device_helium_maintainer" translatable="false">ROMFACTORY(SARTHAKMALLA)</string>
    
   <string name="device_z2_row" translatable="false">Zuk Z2 PRO</string>
-  <string name="device_z2_row_codename" translatable="false"> z2_row</string>
-  <string name="device_z2_row_maintainer" translatable="false">Mr.ACAR </string>   
+  <string name="device_z2_row_codename" translatable="false">z2_row</string>
+  <string name="device_z2_row_maintainer" translatable="false">Agustin Lorenzo (AgustinLorenzo)</string>   
 
   <string name="device_oxygen" translatable="false">Xiaomi Mi Max 2</string>
   <string name="device_oxygen_codename" translatable="false">oxygen</string>
