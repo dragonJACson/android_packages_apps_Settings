@@ -459,6 +459,7 @@
     <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
     <string name="status_bar_battery_style_circle">Circle</string>
     <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_q">Android Q</string>
     <string name="status_bar_battery_style_hidden">Hidden</string>
 
     <!--RR statusbar logo -->
@@ -2364,6 +2365,10 @@
     <string name="lockscreen_albumart_filter_tint">Accent tinted</string>
     <string name="lockscreen_albumart_filter_blur">Blur</string>
     <string name="lockscreen_albumart_filter_grayblur">Grayscale and blurred</string>
+
+    <!-- Quick settings brightness slider -->
+    <string name="qs_brightness_slider_title">Brightness slider</string>
+    <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
 
     <!-- QS Brightness Slider position -->
     <string name="qs_brightness_slider_hide">Hide</string>
