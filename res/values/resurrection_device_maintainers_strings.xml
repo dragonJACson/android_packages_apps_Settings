@@ -149,7 +149,7 @@
 
   <string name="device_sanders" translatable="false">Moto G5S Plus</string>
   <string name="device_sanders_codename" translatable="false">sanders</string>
-  <string name="device_sanders_maintainer" translatable="false">Keertesh </string>
+  <string name="device_sanders_maintainer" translatable="false">Alisson Grizotti </string>
 
   <string name="device_otus" translatable="false">Moto E 2015 3G</string>
   <string name="device_otus_codename" translatable="false">Otus</string>
@@ -782,7 +782,7 @@
 
   <string name="device_jasmine_sprout" translatable="false">Xiaomi Mi A2</string>
   <string name="device_jasmine_sprout_codename" translatable="false">jasmine_sprout</string>
-     <string name="device_jasmine_sprout_maintainer" translatable="false">Shouko Komi</string>
+  <string name="device_jasmine_sprout_maintainer" translatable="false">pqhaz</string>
 
   <string name="device_daisy" translatable="false">Xiaomi Mi A2 Lite</string>
   <string name="device_daisy_codename" translatable="false">daisy</string>

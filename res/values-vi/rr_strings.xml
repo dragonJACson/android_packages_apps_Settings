@@ -413,6 +413,7 @@
     <string name="status_bar_battery_style_icon_landscape">Biểu tượng ngang</string>
     <string name="status_bar_battery_style_circle">Vòng tròn</string>
     <string name="status_bar_battery_style_text">Phần trăm pin</string>
+    <string name="status_bar_battery_style_q">Android Q</string>
     <string name="status_bar_battery_style_hidden">Ẩn</string>
     <!--RR statusbar logo -->
     <string name="status_bar_logo_title">Logo của RR-OS</string>
@@ -2102,6 +2103,7 @@
     <string name="lockscreen_clock_title">Tiện ích đồng hồ</string>
     <string name="lockscreen_clock_summary">Hiển thị đồng hồ trên màn hình khoá</string>
     <string name="lockscreen_info_title">Thông tin bên dưới Đồng hồ</string>
+    <string name="lockscreen_info_summary">Hiển thị thông tin thời tiết, ngày và báo thức trên màn hình khoá</string>
     <!-- Lockscreen clock styles -->
     <string name="lockscreen_clock_selection_title">Kiểu đồng hồ</string>
     <string name="lockscreen_clock_selection_digital">Mặc định</string>
@@ -2133,9 +2135,30 @@
     <string name="qstile_circle_trim">Vòng tròn có viền</string>
     <string name="qstile_dual_tone_circle">Vòng tròn hai tông màu</string>
     <string name="qstile_squircle_trim">Hình tròn có viền</string>
+    <string name="qstile_teardrop">Hình giọt nước</string>
+    <string name="qstile_hexagon">Hình lục giác</string>
+    <string name="qstile_star">Ngôi sao</string>
+    <string name="qstile_square">Hình vuông bo góc</string>
+    <string name="qstile_gear">Hộp số</string>
+    <string name="qstile_badge">Huy hiệu</string>
+    <string name="qstile_badgetwo">Huy hiệu hai</string>
+    <string name="qstile_squircle">Hình tròn</string>
+    <string name="qstile_diamond">Kim cương</string>
     <!-- Lockscreen album art filter -->
+    <string name="lockscreen_albumart_filter_title">Bộ lọc ảnh bìa</string>
+    <string name="lockscreen_albumart_filter_none">Không có</string>
+    <string name="lockscreen_albumart_filter_grayscale">Trắng đen</string>
+    <string name="lockscreen_albumart_filter_tint">Đồng bộ màu</string>
+    <string name="lockscreen_albumart_filter_blur">Mờ nền</string>
+    <string name="lockscreen_albumart_filter_grayblur">Thang độ xám và mờ</string>
+    <!-- Quick settings brightness slider -->
+    <string name="qs_brightness_slider_title">Thanh trượt độ sáng</string>
+    <string name="qs_brightness_slider_summary">Hiển thị thanh trượt độ sáng trong bảng cài đặt nhanh</string>
     <!-- QS Brightness Slider position -->
     <string name="qs_brightness_slider_hide">Ẩn đi</string>
     <string name="qs_brightness_slider_top">Trên cùng</string>
     <string name="qs_brightness_slider_bottom">Dưới cùng</string>
+    <!-- Disabling FC notifications -->
+    <string name="disable_fc_notifications_title">Tắt thông báo buộc dừng</string>
+    <string name="disable_fc_notifications_summary">Việc này sẽ ẩn tất cả các thông báo buộc dừng</string>
 </resources>

@@ -65,6 +65,32 @@
         android:title="@string/wakelock_blocker_title" 
         android:summary="@string/wakelock_blocker_summary" />
 
+     <com.rr.settings.preferences.SystemSettingSwitchPreference  
+        android:key="disable_fc_notifications" 
+        android:title="@string/disable_fc_notifications_title" 
+        android:summary="@string/disable_fc_notifications_summary" 
+        android:defaultValue="false" />
+
+    <PreferenceCategory
+        android:key="incall_vib_options"
+        android:title="@string/incall_vibration_category" >
+
+        <com.rr.settings.preferences.SystemSettingSwitchPreference
+            android:key="vibrate_on_connect"
+            android:title="@string/incall_vibrate_connect_title"
+            android:defaultValue="false" />
+
+        <com.rr.settings.preferences.SystemSettingSwitchPreference
+            android:key="vibrate_on_callwaiting"
+            android:title="@string/incall_vibrate_call_wait_title"
+            android:defaultValue="false" />
+
+        <com.rr.settings.preferences.SystemSettingSwitchPreference
+            android:key="vibrate_on_disconnect"
+            android:title="@string/incall_vibrate_disconnect_title"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
     <PreferenceCategory
         android:key="corners_category"
         android:title="@string/corners_category" >

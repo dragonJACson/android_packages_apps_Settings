@@ -413,6 +413,7 @@
     <string name="status_bar_battery_style_icon_landscape">Ikona poziomo</string>
     <string name="status_bar_battery_style_circle">Okrąg</string>
     <string name="status_bar_battery_style_text">Tekst</string>
+    <string name="status_bar_battery_style_q">Android Q</string>
     <string name="status_bar_battery_style_hidden">Ukryty</string>
     <!--RR statusbar logo -->
     <string name="status_bar_logo_title">Logo Resurrection</string>
@@ -2102,6 +2103,7 @@
     <string name="lockscreen_clock_title">Widżet zegara</string>
     <string name="lockscreen_clock_summary">Pokaż zegar na ekranie blokady</string>
     <string name="lockscreen_info_title">Elementy pod zegarem</string>
+    <string name="lockscreen_info_summary">Pokazuj datę, pogodę i alarmy na ekranie blokady</string>
     <!-- Lockscreen clock styles -->
     <string name="lockscreen_clock_selection_title">Styl zegara</string>
     <string name="lockscreen_clock_selection_digital">Domyślny</string>
@@ -2133,9 +2135,30 @@
     <string name="qstile_circle_trim">Okrąg z podziałką</string>
     <string name="qstile_dual_tone_circle">Dwutonowy Okrąg</string>
     <string name="qstile_squircle_trim">Okrąg z podziałką</string>
+    <string name="qstile_teardrop">Łezka</string>
+    <string name="qstile_hexagon">Sześciokąt</string>
+    <string name="qstile_star">Gwiazdka</string>
+    <string name="qstile_square">Zaokrąglony kwadrat</string>
+    <string name="qstile_gear">Koło zębate</string>
+    <string name="qstile_badge">Odznaka</string>
+    <string name="qstile_badgetwo">Odznaka 2</string>
+    <string name="qstile_squircle">Obły kwadrat</string>
+    <string name="qstile_diamond">Diament</string>
     <!-- Lockscreen album art filter -->
+    <string name="lockscreen_albumart_filter_title">Filtr okładki albumu</string>
+    <string name="lockscreen_albumart_filter_none">Żaden</string>
+    <string name="lockscreen_albumart_filter_grayscale">Odcienie szarości</string>
+    <string name="lockscreen_albumart_filter_tint">Akcentowane przyciemnienie</string>
+    <string name="lockscreen_albumart_filter_blur">Rozmycie</string>
+    <string name="lockscreen_albumart_filter_grayblur">Skala szarości i rozmycie</string>
+    <!-- Quick settings brightness slider -->
+    <string name="qs_brightness_slider_title">Suwak jasności</string>
+    <string name="qs_brightness_slider_summary">Pokaż suwak jasności w panelu szybkich ustawień</string>
     <!-- QS Brightness Slider position -->
     <string name="qs_brightness_slider_hide">Ukryj</string>
     <string name="qs_brightness_slider_top">U góry</string>
     <string name="qs_brightness_slider_bottom">Na dole</string>
+    <!-- Disabling FC notifications -->
+    <string name="disable_fc_notifications_title">Wyłącz powiadomienia o wymuszonym zamknięciu</string>
+    <string name="disable_fc_notifications_summary">Zostaną ukryte wszystkie powiadomienia o crashu aplikacji</string>
 </resources>
