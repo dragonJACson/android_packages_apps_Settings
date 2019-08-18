@@ -1217,6 +1217,12 @@
             app:maintainer="@string/device_tulip_maintainer"
             app:type="phone" />
         <com.android.settings.rr.Preferences.DevicePreference
+            android:id="@+id/device_lavender"
+            android:title="@string/device_lavender"
+            app:codename="@string/device_lavender_codename"
+            app:maintainer="@string/device_lavender_maintainer"
+            app:type="phone" />			
+        <com.android.settings.rr.Preferences.DevicePreference
             android:id="@+id/device_libra"
             android:title="@string/device_libra"
             app:codename="@string/device_libra_codename"
@@ -1276,6 +1282,12 @@
             app:codename="@string/device_rosy_codename"
             app:maintainer="@string/device_rosy_maintainer"
             app:type="phone" />
+        <com.android.settings.rr.Preferences.DevicePreference
+            android:id="@+id/device_violet"
+            android:title="@string/device_violet"
+            app:codename="@string/device_violet_codename"
+            app:maintainer="@string/device_violet_maintainer"
+            app:type="phone" />	
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -1340,6 +1352,12 @@
     <PreferenceCategory
         android:id="@+id/device_category_oppo"
         android:title="@string/device_category_oppo_title">
+        <com.android.settings.rr.Preferences.DevicePreference
+            android:id="@+id/device_RMX1851"
+            android:title="@string/device_RMX1851"
+            app:codename="@string/device_RMX1851_codename"
+            app:maintainer="@string/device_RMX1851_maintainer"
+            app:type="phone" />
         <com.android.settings.rr.Preferences.DevicePreference
             android:id="@+id/device_find7"
             android:title="@string/device_find7"

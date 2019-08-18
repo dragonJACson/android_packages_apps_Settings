@@ -141,7 +141,7 @@
 
   <string name="device_thea" translatable="false">Moto G 2014 LTE</string>
   <string name="device_thea_codename" translatable="false">Thea</string>
-  <string name="device_thea_maintainer" translatable="false">Uvneshkumar</string>
+  <string name="device_thea_maintainer" translatable="false">thedeadfish59</string>
 
   <string name="device_potter" translatable="false">Moto G5 Plus</string>
   <string name="device_potter_codename" translatable="false">Potter</string>
@@ -166,6 +166,10 @@
   <string name="device_oneplus" translatable="false">OnePlus One</string>
   <string name="device_oneplus_codename" translatable="false">Bacon</string>
   <string name="device_oneplus_maintainer" translatable="false">Varun Date</string>
+
+  <string name="device_RMX1851" translatable="false">RealMe 3 Pro</string>
+  <string name="device_RMX1851_codename" translatable="false">RMX1851</string>
+  <string name="device_RMX1851_maintainer" translatable="false">ROMFACTORY(SARTHAKMALLA)</string>
 
   <string name="device_find7" translatable="false">OPPO</string>
   <string name="device_find7_codename" translatable="false">Find 7</string>
@@ -726,7 +730,7 @@
 
   <string name="device_gemini" translatable="false">Xiaomi MI 5</string>
   <string name="device_gemini_codename" translatable="false">Gemini</string>
-  <string name="device_gemini_maintainer" translatable="false">Krzysztof Brzęczyszczykiewicz (MOVZX)</string>
+  <string name="device_gemini_maintainer" translatable="false">Baalaji (baalajimaestro)</string>
 
   <string name="device_capricorn" translatable="false">Xiaomi MI 5s</string>
   <string name="device_capricorn_codename" translatable="false">Capricorn</string>
@@ -775,6 +779,10 @@
   <string name="device_tulip" translatable="false">Xiaomi Redmi Note 6 Pro</string>
   <string name="device_tulip_codename" translatable="false">tulip</string>
   <string name="device_tulip_maintainer" translatable="false">Aryan Gupta</string>
+  
+  <string name="device_lavender" translatable="false">Xiaomi Redmi Note 7/7S</string>
+  <string name="device_lavender_codename" translatable="false">lavender</string>
+  <string name="device_lavender_maintainer" translatable="false">Naveen Achari</string>
 
   <string name="device_tissot" translatable="false">Xiaomi Mi A1</string>
   <string name="device_tissot_codename" translatable="false">Tissot</string>
@@ -782,7 +790,7 @@
 
   <string name="device_jasmine_sprout" translatable="false">Xiaomi Mi A2</string>
   <string name="device_jasmine_sprout_codename" translatable="false">jasmine_sprout</string>
-  <string name="device_jasmine_sprout_maintainer" translatable="false">pqhaz</string>
+  <string name="device_jasmine_sprout_maintainer" translatable="false"></string>
 
   <string name="device_daisy" translatable="false">Xiaomi Mi A2 Lite</string>
   <string name="device_daisy_codename" translatable="false">daisy</string>
@@ -790,11 +798,15 @@
 
   <string name="device_hydrogen" translatable="false">Xiaomi Mi Max</string>
   <string name="device_hydrogen_codename" translatable="false">Hydrogen</string>
-  <string name="device_hydrogen_maintainer" translatable="false">ROMFACTORY(SARTHAKMALLA)</string>
+  <string name="device_hydrogen_maintainer" translatable="false"></string>
   
   <string name="device_rosy" translatable="false">Xiaomi Redmi 5</string>
   <string name="device_rosy_codename" translatable="false">rosy</string>
   <string name="device_rosy_maintainer" translatable="false">Shreejoy Dash</string>
+
+  <string name="device_violet" translatable="false">Redmi Note 7 Pro</string>
+  <string name="device_violet_codename" translatable="false">Violet</string>
+  <string name="device_violet_maintainer" translatable="false">Rashed Sahaji</string>
    
   <string name="device_sprout4" translatable="false">Android One - 4GB variants (1st Gen)</string>
   <string name="device_sprout4_codename" translatable="false">Sprout4</string>
@@ -1014,7 +1026,7 @@
 
   <string name="device_helium" translatable="false">Xiaomi Mi Max Prime</string>
   <string name="device_helium_codename" translatable="false">Helium</string>
-  <string name="device_helium_maintainer" translatable="false">ROMFACTORY(SARTHAKMALLA)</string>
+  <string name="device_helium_maintainer" translatable="false"></string>
    
   <string name="device_z2_row" translatable="false">Zuk Z2 PRO</string>
   <string name="device_z2_row_codename" translatable="false">z2_row</string>
@@ -1022,7 +1034,7 @@
 
   <string name="device_oxygen" translatable="false">Xiaomi Mi Max 2</string>
   <string name="device_oxygen_codename" translatable="false">oxygen</string>
-  <string name="device_oxygen_maintainer" translatable="false">ROMFACTORY(SARTHAKMALLA)</string>
+  <string name="device_oxygen_maintainer" translatable="false"></string>
 
   <string name="device_on7xelte" translatable="false">Galaxy J7 Prime</string>
   <string name="device_on7xelte_codename" translatable="false">on7xelte</string>
